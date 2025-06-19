@@ -1,6 +1,6 @@
 import { toast } from "react-toastify";
 import axiosInstance from "../AxiosInstance/AxiosInstance";
-import { endpoints } from "../EndPoints/Endpoints";
+import { endpoints } from "../EndPoints/endpoints";
 
 export const updatePassword = async (data) => {
   try {

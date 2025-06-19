@@ -1,5 +1,5 @@
 import axiosInstance from "../AxiosInstance/AxiosInstance";
-import { endpoints } from "../EndPoints/EndPoints";
+import { endpoints } from "../EndPoints/endPoints";
 
 export const userLogin = async (data) => {
   try {
