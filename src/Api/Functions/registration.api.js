@@ -1,5 +1,5 @@
 import axiosInstance from "../AxiosInstance/AxiosInstance";
-import { endpoints } from "../EndPoints/endpoints";
+import { endpoints } from "../endpoints/endpoints";
 
 // Define Registration API Function
 export const registration = async (data) => {

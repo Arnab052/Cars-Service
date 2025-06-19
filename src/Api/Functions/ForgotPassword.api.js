@@ -1,6 +1,6 @@
 import { toast } from "react-toastify";
 import axiosInstance from "../AxiosInstance/AxiosInstance";
-import { endpoints } from "../EndPoints/endPoints";
+import { endpoints } from "../endpoints/endpoints";
 
 export const forgetPWEmailVerification = async (data) => {
   try {

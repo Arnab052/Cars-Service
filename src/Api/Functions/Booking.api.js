@@ -1,5 +1,5 @@
 import axiosInstance from "../AxiosInstance/AxiosInstance";
-import { endpoints } from "../EndPoints/endpoints";
+import { endpoints } from "../endpoints/endpoints";
 
 export const bookingService = async (data) => {
   try {
